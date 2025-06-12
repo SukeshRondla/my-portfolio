@@ -215,7 +215,7 @@ function App() {
                     tabIndex="-1"
                   >
                     <div className="work-title">{job.title}</div>
-                    <div className="work-company">{job.company}</div>
+                      <div className="work-company">{job.company}</div>
                     <div className="work-dates">{job.dates}</div>
                   </div>
                   {openJob === idx && (
