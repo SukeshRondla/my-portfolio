@@ -1,10 +1,7 @@
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-function App() {
-  // ...
-  return (
-    <Router basename="/">
-      {/* ... */}
-    </Router>
-  );
-}
+export default defineConfig({
+  plugins: [react()],
+  base: '/',
+})
