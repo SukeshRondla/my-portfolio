@@ -128,7 +128,7 @@ function App() {
   const [openJob, setOpenJob] = useState(null);
 
   return (
-    <Router basename="/my-portfolio">
+    <Router basename='/'>
       <Routes>
         <Route path="/insight/:slug" element={<InsightDetail />} />
         <Route path="/" element={(
