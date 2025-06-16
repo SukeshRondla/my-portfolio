@@ -75,7 +75,7 @@ const workData = [
 // Example data for Featured Projects & Publications - REPLACE WITH YOUR ACTUAL PROJECTS AND PUBLICATIONS
 const projectsData = [
   {
-    imgSrc: "/pathVis.png",
+    imgSrc: "pathVis.png",
     altText: 'PathVisVR project',
     title: 'PathVisVR: Immersive Medical Image Viewer',
     authors: 'Sukesh Reddy Rondla, Alafia AI Team', // Example Authors - Replace
@@ -87,7 +87,7 @@ const projectsData = [
     ]
   },
   {
-    imgSrc: "/retinaWise.png",
+    imgSrc: "retinaWise.png",
     altText: 'Retinal Disease AI Diagnosis',
     title: 'Retinal Disease AI Diagnosis',
     authors: 'Sukesh Reddy Rondla, Retinawise AI Team', // Example Authors - Replace
@@ -99,7 +99,7 @@ const projectsData = [
     ]
   },
   {
-    imgSrc: "/Healthcare.png",
+    imgSrc: "Healthcare.png",
     altText: 'Healthcare Procurement Tender NLP Classifier',
     title: 'Healthcare Procurement Tender NLP Classifier',
     authors: 'Sukesh Reddy Rondla, Vamstar Team', // Example Authors - Replace
@@ -111,7 +111,7 @@ const projectsData = [
     ]
   },
   {
-    imgSrc: "/semantic.png",
+    imgSrc: "semantic.png",
     altText: 'Semantic Search and Recommendation Engine',
     title: 'Semantic Search and Recommendation Engine',
     authors: 'Sukesh Reddy Rondla, Vamstar Team', // Example Authors - Replace
@@ -154,13 +154,13 @@ function App() {
                   <span>Contact.sukeshreddyrondla@gmail.com</span> | <span>+1 (970)-827-8470</span>
                 </div>
                 <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
-                  <button onClick={() => window.open('/SukeshRondla.pdf', '_blank')} className="download-button-new">
-                    <div class="button-outer">
-                      <div class="button-inner">
+                  <a href="/SukeshRondla.pdf" download className="download-button-new">
+                    <div className="button-outer">
+                      <div className="button-inner">
                         <span>Download Resume</span>
                       </div>
                     </div>
-                  </button>
+                  </a>
                 </div>
               </div>
             </header>
@@ -171,7 +171,7 @@ function App() {
               <div className="news-list">
                 <div className="news-item">
                   <div className="news-date">May 2025</div>
-                  <div className="news-desc"><b> Alchemy AI at SAP Sapphire</b> — <b>Miami, FL</b>Presented <b>Alchemy AI</b>, demonstrating enterprise-grade AI agents for SAP environments. Showcased integrations across supply chain workflows, real-time analytics, and automation built using <b>Alchemy's no-code platform</b>.</div>
+                  <div className="news-desc"><b> Alchemy AI at SAP Sapphire</b> — <b>Miami, FL</b> Presented <b>Alchemy AI</b>, demonstrating enterprise-grade AI agents for SAP environments. Showcased integrations across supply chain workflows, real-time analytics, and automation built using <b>Alchemy's no-code platform</b>.</div>
                 </div>
                 <div className="news-item">
                   <div className="news-date">Nov 2024</div>
