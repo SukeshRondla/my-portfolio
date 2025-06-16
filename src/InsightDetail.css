@@ -1,0 +1,41 @@
+/* Basic styles for the InsightDetail page */
+
+.insight-detail-section {
+  padding: 20px;
+  background-color: white; /* Ensure background is visible */
+  color: #333; /* Ensure text is visible */
+}
+
+.insight-detail-section h2 {
+  color: #0056b3; /* Example heading color */
+  margin-bottom: 10px;
+}
+
+.insight-date {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.insight-content p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.insight-external-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.insight-external-link a:hover {
+  text-decoration: underline;
+}
+
+.back-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+} 
