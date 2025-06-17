@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 // import profilePhoto from '/Users/sukeshreddy/Downloads/MyWebsite/my-portfolio/src/assets/Photoroom_20250123_221608.jpg'
 // import pathvisvrImg from '/Users/sukeshreddy/Downloads/MyWebsite/my-portfolio/src/assets/pathvis.jpg'
@@ -127,6 +127,15 @@ const projectsData = [
 function App() {
   const [openJob, setOpenJob] = useState(null);
 
+  useEffect(() => {
+    document.title = 'Sukesh Reddy Rondla | Profile';
+    // Optionally set favicon/profile photo as tab icon
+    const link = document.querySelector("link[rel~='icon']") || document.createElement('link');
+    link.rel = 'icon';
+    link.href = '/profile-photo.jpg'; // Make sure this path is correct and the image exists in public/
+    document.getElementsByTagName('head')[0].appendChild(link);
+  }, []);
+
   return (
     <Router basename='/'>
       <Routes>
@@ -151,7 +160,7 @@ function App() {
                   <a href="https://github.com/SukeshRondla" target="_blank" rel="noopener noreferrer" title="GitHub">GitHub</a>
                 </div>
                 <div className="contact-details" style={{ textAlign: 'center' }}>
-                  <span>Contact.sukeshreddyrondla@gmail.com</span> | <span>+1 (970)-827-8470</span>
+                  <span>Contact.sukeshreddyrondla@gmail.com</span> | <span>Phone: +1 (972)-827-8470</span>
                 </div>
                 <div style={{ textAlign: 'center', marginTop: '0.5rem' }}>
                   <a href="/SukeshRondla.pdf" download className="download-button-new">
