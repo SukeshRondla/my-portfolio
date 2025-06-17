@@ -171,7 +171,9 @@ function App() {
               <div className="news-list">
                 <div className="news-item">
                   <div className="news-date">May 2025</div>
-                  <div className="news-desc"><b> Alchemy AI at SAP Sapphire</b> — <b>Miami, FL</b> Presented <b>Alchemy AI</b>, demonstrating enterprise-grade AI agents for SAP environments. Showcased integrations across supply chain workflows, real-time analytics, and automation built using <b>Alchemy's no-code platform</b>.</div>
+                  <div className="news-desc"><b>Showcased Alchemy AI at SAP Sapphire 2025</b><br/>
+                    <b>Miami, FL</b> — Presented <b>Alchemy AI</b>, demonstrating enterprise-grade AI agents for SAP environments. Showcased integrations across supply chain workflows, real-time analytics, and automation built using <b>Alchemy's no-code platform</b>.
+                  </div>
                 </div>
                 <div className="news-item">
                   <div className="news-date">Nov 2024</div>
